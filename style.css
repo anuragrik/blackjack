@@ -1,0 +1,46 @@
+body{
+    background-image: url("images/bjgreen.jpg");
+    background-size: cover;
+    width: 100%;
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: white;
+    font-weight: bold;
+    font-size: 25px;
+    margin: 0px;
+}
+h1{
+    font-size: 50px;
+    color: goldenrod;
+    margin: 0px;
+    margin-bottom: 20px;
+}
+.container{
+    display: flex;
+    flex-flow: column nowrap;
+    margin: auto;
+    margin-top: 120px;
+    align-items: center;
+    gap: 20px;
+    width: 500px;
+}
+.buttons-bj{
+    display: flex;
+    flex-flow: column nowrap;
+    gap: 8px;
+}
+button{
+    background-color: goldenrod;
+    border-radius: 3px;
+    border: none;
+    color: rgb(7, 87, 7);
+    width: 286px;
+    height: 40px;
+    padding: 10px;
+    text-align: center;
+    font-weight: bold;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+#outcome{
+    font-style: italic;
+}
